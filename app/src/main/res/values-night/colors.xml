@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="gray2">#f1f1f1</color>
+    <color name="gray3">#AAAAAA</color>
+    <color name="gray4">#9a9a9a</color>
+    <color name="gray5">#6A6A6A</color>
+    <color name="black">#000000</color>
+
+
+    <!--    lightTheme-->
+
+    <color name="lt_deepblue">#00133d</color>
+    <color name="lt_darkpblue">#003cbf</color>
+    <color name="lt_blue">#008cef</color>
+    <color name="lt_yellow">#ffe0b7</color>
+    <color name="surface">#f8f8fa</color>
+
+
+    <!--    darkTheme-->
+    <color name="dt_deepblue">#292546</color>
+    <color name="dt_darkpblue">#312c51</color>
+    <color name="dt_blue">#48426d</color>
+    <color name="dt_pink">#f1aa9b</color>
+    <color name="dt_yellow">#f0c38e</color>
+    <color name="dt_gray">#ececed</color>
+
+    <color name="username_textBox_color">@color/dt_blue</color>
+    <color name="spokeColor">@color/dt_pink</color>
+
+    <color name="secondary_button_color">@color/dt_yellow</color>
+    <color name="secondary_button_color_disabled">#50f0c38e</color>
+
+    <color name="nextIconTint">@color/dt_darkpblue</color>
+    <color name="primary_button_color">@color/dt_yellow</color>
+    <color name="primary_button_color_disabled">#50f0c38e</color>
+
+    <color name="indicatorColor">@color/dt_pink</color>
+    <color name="indicatorTrackColor">#90f1aa9b</color>
+    <color name="indicatorTextColor">@color/dt_darkpblue</color>
+
+    <color name="bottom_nav_icon_tint">@color/dt_yellow</color>
+    <color name="bottom_nav_icon_tint_disabled">@color/gray2</color>
+    <color name="bottom_nav_bg">@color/dt_blue</color>
+
+
+    <color name="dashboard_title_color">@color/dt_yellow</color>
+
+    <color name="tabLayoutIndicatorColor">@color/dt_gray</color>
+    <color name="tabLayoutTextColor">@color/dt_gray</color>
+
+    <color name="icon_bg_color">@color/dt_darkpblue</color>
+
+    <color name="dashboard_card_color">@color/dt_yellow</color>
+    <color name="dashboard_card_add_color">@color/dt_blue</color>
+
+    <color name="fotd_bg_color">@color/dt_pink</color>
+    <color name="color_on_fotd">@color/dt_darkpblue</color>
+
+    <color name="progress_color">@color/dt_blue</color>
+    <color name="progress_bg_color">@color/dt_gray</color>
+
+    <color name="dividerColor">@color/dt_pink</color>
+    <color name="numberPickerColor">@color/dt_pink</color>
+
+    <color name="percentageCardBgColor">@color/dt_yellow</color>
+    <color name="expCardBgColor">@color/dt_pink</color>
+    <color name="colorOnCard">@color/dt_darkpblue</color>
+
+    <color name="graphColor">@color/dt_pink</color>
+    <color name="graphGradientColor">@color/dt_blue</color>
+    <color name="graphLabelColor">@color/dt_gray</color>
+    <color name="graphBgColor">#60312c51</color>
+
+    <color name="onBoardingCard">#6048426d</color>
+    <color name="onBoardingBg">@color/dt_darkpblue</color>
+    <color name="selectedDot">@color/onBoardingPrimary</color>
+    <color name="unselectedDot">#50f0c38e</color>
+    <color name="onBoardingPrimary">@color/dt_yellow</color>
+
+
+    <color name="card1BgColor">@color/dt_yellow</color>
+    <color name="card1TextColor">@color/dt_darkpblue</color>
+
+    <color name="card2BgColor">@color/dt_blue</color>
+    <color name="card2TextColor">@color/dt_gray</color>
+
+    <color name="divider">@color/dt_deepblue</color>
+
+    <color name="versionColor">@color/dt_pink</color>
+    <color name="nameColor">@color/dt_pink</color>
+</resources>

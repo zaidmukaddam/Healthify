@@ -1,0 +1,5 @@
+/build
+/google-services.json
+/src/main/java/com/zaid/healthify/util/Secrets.kt
+/src/main/res/values/secrets.xml
+/src/main/res/values/strings.xml

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zaid.healthify">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.zaid.healthify.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Healthify"
+        android:fullBackupContent="true">
+        <activity
+            android:name=".ui.onBoarding.OnBoardingActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.Healthify.NoStatusBarTheme" />
+        <activity
+            android:name=".ui.splashScreen.SplashActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.Healthify.NoStatusBarTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.userDetailsInput.UserDetailsActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.Healthify.NoStatusBarTheme" />
+        <activity
+            android:name=".ui.auth.AuthActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.Healthify.NoStatusBarTheme" />
+        <activity
+            android:name=".ui.homeScreen.MainActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.Healthify" />
+
+        <receiver android:name=".util.WaterBroadcastReceiver" />
+    </application>
+
+</manifest>
